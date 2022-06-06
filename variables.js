@@ -205,9 +205,9 @@ class Juego {
 
 //Aqui vamos a instanciar y cargar nuevos videojuegos
 
-let juego1 = new Juego(0, "Resident Evil", "terror", 1200, 300, 5);
-let juego2 = new Juego(1, "Crash", "aventura", 1000, 200, 3);
-let juego3 = new Juego(2, "El señor de los anillos", "accion", 1000, 200, 3);
+const juego1 = new Juego(0, "Resident Evil", "terror", 1200, 300, 5);
+const juego2 = new Juego(1, "Crash", "aventura", 1000, 200, 3);
+const juego3 = new Juego(2, "El señor de los anillos", "accion", 1000, 200, 3);
 
 let Juegos = [];
 Juegos.push(juego1);
@@ -238,7 +238,7 @@ do {
           "2 - Accion \n" +
           "3 - Terror"
       ).toLowerCase();
-      let encontrar = Juegos.filter((juego) => juego.genero == nJuego);
+      const encontrar = Juegos.filter((juego) => juego.genero == nJuego);
       console.table(encontrar);
       break;
     case 3:
