@@ -219,7 +219,7 @@ let respuesta, opc;
 do {
   opc = parseInt(
     prompt(
-      "*** Bienvenido a tu nueva calculadora ***\n" +
+      "*** Bienvenido a tu tienda de Videojuegos Digitales ***\n" +
         "Por favor ingresa el numero de operación que deseas realizar: \n" +
         "1 - Mostrar lista de videojuegos disponibles \n" +
         "2 - Filtrar videojuegos por genero \n" +
